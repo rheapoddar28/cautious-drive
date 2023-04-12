@@ -2,9 +2,9 @@ import { StyleSheet, Text, View, Dimensions, SafeAreaView, ScrollView, Image, Fl
 import { StatusBar } from 'expo-status-bar'
 import React, {useState,useRef,useEffect} from 'react'
 import MapView, { PROVIDER_GOOGLE,} from 'react-native-maps'
-import { mapStyle} from "/Users/rhesaurus/my-app/src/global/mapStyle"
+import { mapStyle} from "../src/global/mapStyle"
 import * as Location from 'expo-location'
-import { colors, parameters} from '/Users/rhesaurus/my-app/src/global/styles'
+import { colors, parameters} from '../global/styles'
 const SCREEN_WIDTH = Dimensions.get('window').width
 
 

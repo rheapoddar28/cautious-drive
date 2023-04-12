@@ -4,9 +4,9 @@ import React,{useState,useRef,useEffect} from 'react'
 import { AntDesign } from '@expo/vector-icons';
 import { Icon } from 'react-native-elements'
 import MapView, { PROVIDER_GOOGLE,} from 'react-native-maps'
-import { colors, parameters} from '/Users/rhesaurus/my-app/src/global/styles'
-import {filterData} from '/Users/rhesaurus/my-app/src/global/data'
-import { mapStyle} from "/Users/rhesaurus/my-app/src/global/mapStyle"
+import { colors, parameters} from '../global/styles'
+import {filterData} from '../global/data'
+import { mapStyle} from "../global/mapStyle"
 import * as Location from 'expo-location'
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
@@ -67,7 +67,7 @@ const [latlng,setLatLng]=useState({})
                         <View style={styles.roadright}></View>
                         <Image
                             style = {styles.image1}
-                            source = {require('/Users/rhesaurus/my-app/assets/road5.png')}
+                            source = {require('../../assets/road5.png')}
                         />
                         <View style = {styles.view10}>
                         <TouchableOpacity>
@@ -83,7 +83,7 @@ const [latlng,setLatLng]=useState({})
         </View>
         <Image
             style = {styles.image2}
-            source = {require('/Users/rhesaurus/my-app/assets/vehicle.png')}
+            source = {require('../../assets/vehicle.png')}
         />
       <StatusBar style = "dark" backgroundColor = "#ebebeb" translucent={true}/>
       {/*<View style = {styles.view3}>

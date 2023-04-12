@@ -7,13 +7,13 @@ const Emergency = () => {
 
         <View style={styles.container}>
             <View style={styles.imgd}>
-                <Image style={styles.ImageStyle} source={require("/Users/rhesaurus/my-app/assets/call.png")}></Image></View>
+                <Image style={styles.ImageStyle} source={require("../../assets/call.png")}></Image></View>
             <View style={styles.imgd1}>
-                <Image style={styles.ImageStyle} source={require("/Users/rhesaurus/my-app/assets/p2.png")}></Image></View>
+                <Image style={styles.ImageStyle} source={require("../../assets/p2.png")}></Image></View>
             <View style={styles.imgd2}>
-                <Image style={styles.ImageStyle} source={require("/Users/rhesaurus/my-app/assets/save.png")}></Image></View>
+                <Image style={styles.ImageStyle} source={require("../../assets/save.png")}></Image></View>
             <View style={styles.imgd3}>
-                <Image style={styles.ImageStyle1} source={require("/Users/rhesaurus/my-app/assets/amb.png")}></Image></View>
+                <Image style={styles.ImageStyle1} source={require("../../assets/amb.png")}></Image></View>
             <View style={styles.hori} />
             <View style={styles.veri} />
             <Icon> </Icon>

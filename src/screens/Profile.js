@@ -37,7 +37,7 @@ export default function RegisterScreen() {
 
                     {/*<Text style={styles.title}>Profile</Text>*/}
 
-                    <Image style={styles.Img} source={require('/Users/rhesaurus/my-app/assets/profile.jpg')} />
+                    <Image style={styles.Img} source={require('../../assets/profile.jpg')} />
 
                 </View>
                 <View style={styles.input}>

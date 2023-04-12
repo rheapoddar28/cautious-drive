@@ -9,7 +9,7 @@ export default function SplashScreen({navigation}) {
       <View>
             <Image
                 style = {styles.image1}
-                source = {require('/Users/rhesaurus/my-app/assets/logo.png')}
+                source = {require('../../assets/logo.png')}
                             />
         </View>
     </View>
